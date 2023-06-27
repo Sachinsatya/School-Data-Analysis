@@ -1,83 +1,71 @@
-To analyze the Australian state's School data using Power BI from 2009 to 2018, you can follow these step-by-step instructions: 
+ᴛᴏ ᴀɴᴀʟʏᴢᴇ ᴛʜᴇ ᴀᴜꜱᴛʀᴀʟɪᴀɴ ꜱᴛᴀᴛᴇ'ꜱ ꜱᴄʜᴏᴏʟ ᴅᴀᴛᴀ ᴜꜱɪɴɢ ᴘᴏᴡᴇʀ ʙɪ ꜰʀᴏᴍ 2009 ᴛᴏ 2018, ʏᴏᴜ ᴄᴀɴ ꜰᴏʟʟᴏᴡ ᴛʜᴇꜱᴇ ꜱᴛᴇᴘ-ʙʏ-ꜱᴛᴇᴘ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ:
 
-Data Collection and Preparation: 
 
-Gather the necessary data for each year from 2009 to 2018, including the number of students, number of teachers, gender distribution, and school sector (private or government). 
 
-Ensure that the data is in a structured format, such as CSV or Excel, with appropriate headers and consistent formatting. 
+𝐃𝐚𝐭𝐚 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧:
 
-Data Import in Power BI: 
+● Gather the necessary data for each year from 2009 to 2018, including the number of students, number of teachers, gender distribution, and school sector (private or government) 
 
-Open Power BI and create a new report. 
+𝐃𝐚𝐭𝐚 𝐈𝐦𝐩𝐨𝐫𝐭 𝐢𝐧 𝐏𝐨𝐰𝐞𝐫 𝐁𝐈:
 
-Import the collected data into Power BI by selecting the "Get Data" option and choosing the appropriate file format. 
+● Open Power BI and create a new report. 
 
-Select the necessary tables or sheets from the imported data for analysis. 
+𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴:
 
-Data Modeling: 
+● Create a relationship between the different tables based on the common fields, such as year and state
 
-Create a relationship between the different tables based on the common fields, such as year and state. 
+● Define appropriate data types for each field, ensuring accuracy in calculations and visualizations
 
-Define appropriate data types for each field, ensuring accuracy in calculations and visualizations. 
+𝐂𝐫𝐞𝐚𝐭𝐢𝐧𝐠 𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧𝐬:
 
-Creating Visualizations: 
+● Number of Students vs. States
 
-Number of Students vs. States: 
+● Use a stacked column or bar chart to display the total number of students in each state for each year
 
-Use a stacked column or bar chart to display the total number of students in each state for each year. 
+● Add the necessary filters and slicers to enable interactivity
 
-Add the necessary filters and slicers to enable interactivity. 
+● Utilize a card or KPI (Key Performance Indicator) visual to showcase the total number of students and teachers in the selected time range
 
-Total Number of Students and Teachers: 
+● Number of Students by Private and Government Sector vs. States
 
-Utilize a card or KPI (Key Performance Indicator) visual to showcase the total number of students and teachers in the selected time range. 
+● Create a stacked column or bar chart to compare the number of students in private and government sectors across different states for each year
 
-Number of Students by Private and Government Sector vs. States: 
+● Number of Students in Primary and Secondary Schools vs. States
 
-Create a stacked column or bar chart to compare the number of students in private and government sectors across different states for each year. 
+● Number of Female and Male Students vs. States
 
-Number of Students in Primary and Secondary Schools vs. States: 
+●Teachers by Gender
 
-Generate a stacked column or bar chart to analyze the distribution of students in primary and secondary schools in each state for each year. 
+● Create a pie chart or stacked column chart to compare the number of male and female teachers across different years 
 
-Number of Female and Male Students vs. States: 
+● Number of Students Year-on-Year Trend
 
-Use a stacked column or bar chart to present the gender distribution of students in each state for the selected time range. 
+● Utilize a line chart to demonstrate the trend in the number of students over the years
 
-Teachers by Gender: 
+● Enable the appropriate time intelligence functions to calculate year-on-year changes
 
-Create a pie chart or stacked column chart to compare the number of male and female teachers across different years. 
+● Number of Teachers Year-on-Year Trend: 
 
-Number of Students Year-on-Year Trend: 
+● Implement time intelligence functions to calculate year-on-year changes. 
 
-Utilize a line chart to demonstrate the trend in the number of students over the years. 
+● Staffs by Function
 
-Enable the appropriate time intelligence functions to calculate year-on-year changes. 
+● If available, include additional data on staff functions (e.g., administration, support staff). 
 
-Number of Teachers Year-on-Year Trend: 
+𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:
 
-Generate a line chart to illustrate the trend in the number of teachers over the years. 
+● Explore visualizations to identify patterns, trends, and insights. 
 
-Implement time intelligence functions to calculate year-on-year changes. 
+● Utilize filters, slicers, and drill-through functionality to perform in-depth analysis based on specific criteria
 
-Staffs by Function: 
+● Apply measures or calculations to derive additional insights, such as student-teacher ratios or percentage changes. 
 
-If available, include additional data on staff functions (e.g., administration, support staff). 
+𝐑𝐞𝐩𝐨𝐫𝐭 𝐒𝐡𝐚𝐫𝐢𝐧𝐠: 
 
-Use a stacked column or bar chart to analyze the distribution of staff members across different functions for each year. 
+● Save and publish the report to Power BI service for sharing and collaboration
 
-Data Analysis: 
+● Create a dashboard to provide an overview of key metrics and visualizations
 
-Explore visualizations to identify patterns, trends, and insights. 
 
-Utilize filters, slicers, and drill-through functionality to perform in-depth analysis based on specific criteria. 
 
-Apply measures or calculations to derive additional insights, such as student-teacher ratios or percentage changes. 
-
-Report Sharing: 
-
-Save and publish the report to Power BI service for sharing and collaboration. 
-
-Create a dashboard to provide an overview of key metrics and visualizations. 
-
-Remember to regularly update the data in Power BI as new information becomes available to maintain accurate and up-to-date analysis. 
+● Remember to regularly update the data in Power BI as new information becomes available to maintain accurate and up-to-date analysis. 
